@@ -33,7 +33,7 @@ object Dependencies {
     val yodaTime             = "2.1"
     val kafka                = "0.10.1.0"
     // Scala
-    val snowplowCommonEnrich = "0.22.0"
+    val snowplowCommonEnrich = "0.25.0"
     val igluClient           = "0.3.2"
     val scalaz7              = "7.0.0"
     val snowplowRawEvent     = "0.1.0"
@@ -56,7 +56,7 @@ object Dependencies {
     val kafkaClients         = "org.apache.kafka"      %  "kafka-clients"             % V.kafka
 
     // Scala
-    val snowplowCommonEnrich = "com.snowplowanalytics" %  "snowplow-common-enrich"    % V.snowplowCommonEnrich intransitive
+    val snowplowCommonEnrich = "com.snowplowanalytics" %% "snowplow-common-enrich"    % V.snowplowCommonEnrich intransitive
     val igluClient           = "com.snowplowanalytics" %  "iglu-scala-client"         % V.igluClient
     val scalaz7              = "org.scalaz"            %% "scalaz-core"               % V.scalaz7
     val snowplowRawEvent     = "com.snowplowanalytics" %  "snowplow-thrift-raw-event" % V.snowplowRawEvent
