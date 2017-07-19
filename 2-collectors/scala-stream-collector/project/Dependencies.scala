@@ -34,7 +34,6 @@ object Dependencies {
     val kafka                = "0.10.1.0"
     // Scala
     val snowplowCommonEnrich = "0.25.0"
-    val igluClient           = "0.3.2"
     val scalaz7              = "7.0.9"
     val collectorPayload     = "0.0.0"
     val spray                = "1.3.3"
@@ -55,8 +54,7 @@ object Dependencies {
     val kafkaClients         = "org.apache.kafka"      %  "kafka-clients"             % V.kafka
 
     // Scala
-    val snowplowCommonEnrich = "com.snowplowanalytics" %% "snowplow-common-enrich"    % V.snowplowCommonEnrich intransitive
-    val igluClient           = "com.snowplowanalytics" %  "iglu-scala-client"         % V.igluClient
+    val snowplowCommonEnrich = "com.snowplowanalytics" %% "snowplow-common-enrich"    % V.snowplowCommonEnrich
     val scalaz7              = "org.scalaz"            %% "scalaz-core"               % V.scalaz7
     val collectorPayload     = "com.snowplowanalytics" %  "collector-payload-1"       % V.collectorPayload
     val scopt                = "com.github.scopt"      %% "scopt"                     % V.scopt
